@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+    padding: 16px 200px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a { text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+    background: #1F2937;
+    color: white;
+    gap: 40px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-img {
+    width: 400px;
+    height: 200px;
+    background: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    text-align: center;
+    padding: 40px 200px 100px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 150px;
+}
+
+.box {
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    height: 150px;
+}
+
+.quote {
+    background: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote span {
+    display: block;
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.cta {
+    padding: 80px 150px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-box button {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
